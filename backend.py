@@ -1,7 +1,16 @@
 class backend:
   print("this is where the backend will exist")
-  #add returns the sum of two numbers
-  #subtract returns the difference of two numbers
-  #multiply returns the product of two numbers
-  #divide returns the quotient of two numbers
+#takes in two numbers. each number is already-validated and converted into a float.
 
+  #add returns the sum of two numbers
+  def add(num1, num2):
+    return num1 + num2
+  #subtract returns the difference of two numbers
+  def subtract(num1, num2):
+    return num1 - num2
+  #multiply returns the product of two numbers
+  def multiply(num1, num2):
+    return num1 * num2
+  #divide returns the quotient of two numbers
+  def divide(num1, num2):
+    return num1 / num2
