@@ -5,4 +5,3 @@ class backend:
   #multiply returns the product of two numbers
   #divide returns the quotient of two numbers
 
-print("this is another function")
