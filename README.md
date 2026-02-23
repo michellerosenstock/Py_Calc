@@ -40,7 +40,7 @@ To keep it simple, this project makes the following assumptions:
 
             only 1 operation is selected.
 
-            only 1 operation is performed on the 2 inputted numbers.
+            only 1 operation is performed on the 2 operands.
 
 
         each operation is mapped to it's matching calculation function.
