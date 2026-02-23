@@ -1,9 +1,7 @@
 class performs_calc:
  
-    def __init__(self, a, b):
-          self.a = a
-          self.b = b  
-
+    def __init__(self):
+          
           print("performs_calc class initialized with a: " + self.a + " and b: " + self.b) 
 
       #calculation functions
