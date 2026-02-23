@@ -7,20 +7,16 @@ class receives_input:
         self.b = b
 
       
+    def get_a(self):
+        return self.a
 
-    
+    def get_b(self):
+        return self.b
 
-    def pick_operation(self),a,b:
-         
-            operation = input("pick an operation: +, -, *, / "  )
-            print("you picked: " + operation)
-            self.calc=self.performs_calc(self.a,self.b)
-            print("1st number: " + self.a, "operation: " + operation, "2nd number: " + self.b)
+    def pick_operation(self):
+
+       
+        self.calc = performs_calc(self.a,self.b)
+        operation = input("Enter the operation you want to perform: +, -, *, / ")
             
-            operation_map = {   
-                '+': self.calc.add(self.a,self.b),
-                '-': self.calc.subtract(self.a,self.b),
-                '*': self.calc.multiply(self.a,self.b),
-                '/': self.calc.divide(self.a,self.b)    
-            }
         
