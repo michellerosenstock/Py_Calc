@@ -61,15 +61,24 @@ To keep it simple, this project makes the following assumptions:
 If I were to further simplify this project, i would consolidate the 3 .py files into the 1 main.py file.
 
 To expand it further, this project could allow for:
+
     an enhanced control structure.
+
     more complex logic.
+
     more flexible and varied data structures.
+
     more/different structure of classes: refractored code and changing logic as well.
+
     2 or more numbers, 1 or more operations, an actual UI.
+
         each number to be positive/negative integer. Inputted as string.
+
         each number to be other types of numbers outside of integers or floating point numbers.
+
         each number to be stored in a resizable structure instead of single variables 
-            when more than 2 numbers are inputted
+            when more than 2 numbers are inputted.
+            
         each number to be validated by more than the simple conversion from string to float
             with actual exception-handling logic.
                 
