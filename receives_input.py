@@ -14,13 +14,13 @@ class receives_input:
             print("pick an operation: +, -, *, /")
          
             operation = input()
-            self.calc=self.performs_calc()
+            self.calc=self.performs_calc(self.array)
 
             switcher = {
-                "+": self.calc.add(self.a,self.b),
-                "-": self.calc.subtract(self.a,self.b),
-                "*": self.calc.multiply(self.a,self.b),
-                "/": self.calc.divide(self.a,self.b)
+                "+": self.calc.add(self.array[0],self.array[1]),
+                "-": self.calc.subtract(self.array[0],self.array[1]),
+                "*": self.calc.multiply(self.array[0],self.array[1]),
+                "/": self.calc.divide(self.array[0],self.array[1])
               
             }
         
