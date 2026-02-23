@@ -1,8 +1,8 @@
 
 
-
-def input_Numbers():
-        self.a = input("Enter the first number: ")
-        self.b = input("Enter the second number: ")
+a = input("Enter the first number: ")
+b = input("Enter the second number: ")
  
-i = input_Numbers(a,b)
+input_Numbers(a,b)
+
+

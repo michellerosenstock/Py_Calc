@@ -1,4 +1,4 @@
-class Input:
+class receives_input:
  
     def __init__(self, a,b):
         self.a = a

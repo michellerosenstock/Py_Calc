@@ -1,12 +1,5 @@
-class backend:
-  print("this is where the backend will exist")
-  #takes in two numbers. each number is already-validated and converted into a float.
+class performs_calc:
 
-
-
-  def __init__(self):
-    pass
-   
     
 
   #calculation functions
