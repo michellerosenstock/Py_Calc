@@ -20,21 +20,41 @@ The "architecture" consists of a 3-class program: main class, receives_input cla
 
 
 To keep it simple, this project makes the following assumptions:
+    
     only 2 numbers. User enters each number one at a time and hits the enter key each time. 
+       
         each number is only a string representation of an inputted positive integer.
+       
         each number is converted from string into a floating point number.
-        each number is inputted in valid format. Only assuming inputs are: '1,2,3,4,5,6,7,8,9'. 
-        each number is > 0 and < 10. Does not include 0. Does not include 10.
+       
+        each number is inputted in valid format. 
+
+            Only assuming inputs are: '1,2,3,4,5,6,7,8,9'. 
+        
+        each number is > 0 and < 10. 
+            Does not include 0. Does not include 10.
+        
         each operation is one of these characters: '+', '-', '*', '/' . 
+
             only 4 operation choices are valid.
+
             only 1 operation is selected.
+
             only 1 operation is performed on the 2 inputted numbers.
+
+
         each operation is mapped to it's matching calculation function.
+
             "+" symbol is associated with the sum function. returning a+b.
+
             "-" symbol is associated with the subtraction function. returning a-b.
+
             "*" symbol is associated with the multiplication function. returning a*b.
+
             "/" symbol is associated with the division function. returning a/b.
+
                 assumed that the "b" value is greater than 0 for this function. 
+
         each calculation function associated witih specific operation symbol performs that operation
     
 
