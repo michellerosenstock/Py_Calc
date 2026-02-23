@@ -9,7 +9,13 @@ class backend:
     self.num1 = num1
     self.num2 = num2
   
-  
+  def get_num1(self):
+    return self.num1
+
+  def get_num2(self):
+    return self.num2
+    
+      
   def __init__(self):
     self.input = Input()
     num1 = self.input.get_a()
