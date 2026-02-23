@@ -5,24 +5,23 @@ class backend:
   num2 = 0.0
 
 
-  def __init__(self):
-    self.input = Input()
-    num1 = self.input.get_a()
-    num2 = self.input.get_b()
-    print("this takes in the input from the user and stores it in the backend", num1," and ", num2)
-
+  def __init__(self), num1, num2:
+    self.num1 = num1
+    self.num2 = num2  
+   
+    
 
   #calculation functions
   #add returns the sum of two numbers
-  def add():
-    return num1 + num2
+  def add(self):
+    return self.num1 + self.num2
   #subtract returns the difference of two numbers
-  def subtract():
-    return num1 - num2
+  def subtract(self):
+    return self.num1 - self.num2
   #multiply returns the product of two numbers
-  def multiply():
-    return num1 * num2
+  def multiply(self):
+    return self.num1 * self.num2
   #divide returns the quotient of two numbers
-  def divide():
-    return num1 / num2
+  def divide(self):
+    return self.num1 / self.num2
  

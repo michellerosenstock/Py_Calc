@@ -1,4 +1,3 @@
-import backend
+
 class main:
-    back = backend()
-    
+    i = input()
