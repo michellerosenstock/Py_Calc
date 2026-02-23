@@ -1,13 +1,11 @@
 class backend:
   print("this is where the backend will exist")
   #takes in two numbers. each number is already-validated and converted into a float.
-  num1 = 0.0
-  num2 = 0.0
-
+  
   def __init__(self, num1, num2):
 
-    self.num1 = num1
-    self.num2 = num2
+    self.num1 = 0.0
+    self.num2 = 0.0
   
   def get_num1(self):
     return self.num1
