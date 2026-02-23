@@ -3,10 +3,10 @@ Made a simple basic calculator program to practice what I learned in my Python r
     created objects and functionality spread across 3 classes to practice with depencies.
     created 2 single variables.  
 
-The "architecture" consists of a 3-class program: main class, receives_input class, performs_calc class
+The "architecture" consists of a 3-class program: main class, receives_input class, performs_calc class.
 
     main class: calls receives_input class so user can interact with calculator functionality. 
-        has an instance of the receives_input class, which connects to the perform_calc class.
+        has an instance of the receives_input class, which connects to the performs_calc class.
             
 
     receives_input class: accepts input for 1st num, 2nd num, and operation symbol
