@@ -1,27 +1,25 @@
 class backend:
   print("this is where the backend will exist")
   #takes in two numbers. each number is already-validated and converted into a float.
-  num1 = 0.0 
-  num2 = 0.0
 
 
-  def __init__(self), num1, num2:
-    self.num1 = num1
-    self.num2 = num2  
+
+  def __init__(self):
+    pass
    
     
 
   #calculation functions
   #add returns the sum of two numbers
-  def add(self):
-    return self.num1 + self.num2
+  def add(self, num1, num2):
+    return num1 + num2
   #subtract returns the difference of two numbers
-  def subtract(self):
-    return self.num1 - self.num2
+  def subtract(self, num1, num2):
+    return num1 - num2
   #multiply returns the product of two numbers
-  def multiply(self):
-    return self.num1 * self.num2
+  def multiply(self, num1, num2):
+    return num1 * num2
   #divide returns the quotient of two numbers
-  def divide(self):
-    return self.num1 / self.num2
+  def divide(self, num1, num2):
+    return num1 / num2
  
