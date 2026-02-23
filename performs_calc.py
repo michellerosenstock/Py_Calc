@@ -1,6 +1,5 @@
 class performs_calc:
-  def __init__(self, array):
-    self.array = array
+ 
 
   #calculation functions
   #add returns the sum of two numbers

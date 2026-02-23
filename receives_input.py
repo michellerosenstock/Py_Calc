@@ -6,7 +6,7 @@ class receives_input:
         self.a = a
         self.b = b
 
-        array = [self.a, self.b]
+      
 
     
 
@@ -14,13 +14,14 @@ class receives_input:
             print("pick an operation: +, -, *, /")
          
             operation = input()
-            self.calc=self.performs_calc(self.array)
+            print("you picked: " + operation)
+            self.calc=self.performs_calc(self.a,self.b)
+            print("1st number: " + self.a, "operation: " + operation, "2nd number: " + self.b)
 
             switcher = {
-                "+": self.calc.add(self.array[0],self.array[1]),
-                "-": self.calc.subtract(self.array[0],self.array[1]),
-                "*": self.calc.multiply(self.array[0],self.array[1]),
-                "/": self.calc.divide(self.array[0],self.array[1])
-              
+                "+": self.calc.add(self.a,self.b),
+                "-": self.calc.subtract(self.a,self.b),
+                "*": self.calc.multiply(self.a,self.b),
+                "/": self.calc.divide(self.a,self.b)  
             }
         
