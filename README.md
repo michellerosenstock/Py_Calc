@@ -1,6 +1,6 @@
 Made a simple basic calculator program to practice what I learned in my Python refresher.
 
-    created objects and functionality spread across 3 classes to practice with depencies.
+    created objects and functionality spread across 3 classes to gain practice with classes, objects, and dependencies.
     created 2 single variables.  
 
 The "architecture" consists of a 3-class program: main class, receives_input class, performs_calc class.
