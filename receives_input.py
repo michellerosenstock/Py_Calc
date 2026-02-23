@@ -10,17 +10,17 @@ class receives_input:
 
     
 
-    def pick_operation(self):
+    def pick_operation(self),a,b:
          
             operation = input("pick an operation: +, -, *, / "  )
             print("you picked: " + operation)
             self.calc=self.performs_calc(self.a,self.b)
             print("1st number: " + self.a, "operation: " + operation, "2nd number: " + self.b)
-
-            switcher = {
-                "+": self.calc.add(self.a,self.b),
-                "-": self.calc.subtract(self.a,self.b),
-                "*": self.calc.multiply(self.a,self.b),
-                "/": self.calc.divide(self.a,self.b)  
+            
+            operation_map = {   
+                '+': self.calc.add(self.a,self.b),
+                '-': self.calc.subtract(self.a,self.b),
+                '*': self.calc.multiply(self.a,self.b),
+                '/': self.calc.divide(self.a,self.b)    
             }
         
