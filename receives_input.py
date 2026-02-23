@@ -13,16 +13,20 @@ class receives_input:
     def get_b(self):
         return self.b
 
-    def pick_operation(self, a, b):
+    def pick_operation(self):
         operation = input("Enter the operation you would like to perform: +, -, *, /: ")
         calc = self.performs_calc()
-        if operation == "+":
-            print(calc.add(a, b))
-        elif operation == "-":
-            print(calc.subtract(a, b))
-        elif operation == "*":
-            print(calc.multiply(a, b))
-        elif operation == "/":
-            print(calc.divide(a, b))
-        else:
-            print("Invalid operation. Please enter +, -, *, or /.") 
+        num1 = self.get_a()
+        num2 = self.get_b()
+        # use Python 3.10+ match statement as a switch replacement
+        match operation:
+            case "+":
+                print(calc.add(num1, num2))
+            case "-":
+                print(calc.subtract(num1, num2))
+            case "*":
+                print(calc.multiply(num1, num2))
+            case "/":
+                print(calc.divide(num1, num2))
+            case _:
+                print("Invalid operation. Please enter +, -, *, or /.") 
