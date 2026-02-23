@@ -1,11 +1,11 @@
 class backend:
   print("this is where the backend will exist")
   #takes in two numbers. each number is already-validated and converted into a float.
+  
 
-  #object constructor
-  def __init__(self, a=0.0, b=0.0):
-    self.a = a
-    self.b = b
+  
+  def __init__():
+    
     print("this is the default back-end constructor")
 
 
