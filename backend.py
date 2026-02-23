@@ -4,13 +4,6 @@ class backend:
   num1 = 0.0 
   num2 = 0.0
 
-  
-  def get_num1(self):
-    return self.num1
-
-  def get_num2(self):
-    return self.num2
-
 
   def __init__(self):
     self.input = Input()
