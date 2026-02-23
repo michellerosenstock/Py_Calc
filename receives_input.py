@@ -6,4 +6,8 @@ class receives_input:
 
         print(f"Input values:", self.a, self.b)
   
+
   
+    def pick_operation(self):
+            print("pick an operation: +, -, *, /")
+        
