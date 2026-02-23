@@ -11,9 +11,8 @@ class receives_input:
     
 
     def pick_operation(self):
-            print("pick an operation: +, -, *, /")
          
-            operation = input()
+            operation = input("pick an operation: +, -, *, / "  )
             print("you picked: " + operation)
             self.calc=self.performs_calc(self.a,self.b)
             print("1st number: " + self.a, "operation: " + operation, "2nd number: " + self.b)
