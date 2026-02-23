@@ -1,6 +1,6 @@
 
 from receives_input import receives_input
-from performs_calculation import performs_calculation
+
 a = input("Enter the first number: a number betwee 0 and 9 ")
 b = input("Enter the second number: a number between 0 and 9 ")
  
